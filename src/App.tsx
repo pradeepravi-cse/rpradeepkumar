@@ -3,10 +3,14 @@ import { Home } from './Modules';
 
 import './Styles/index.scss';
 import 'antd/dist/antd.min.css';
+import { Navbar } from './Components';
 
 function App() {
   return (
+    <>
+    <Navbar/>
     <Home />
+    </>
   );
 }
 

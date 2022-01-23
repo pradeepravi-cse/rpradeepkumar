@@ -8,9 +8,9 @@ const { Title, Paragraph } = Typography;
 const { useBreakpoint } = Grid;
 export const Hero = () => {
   const breakpoint = useBreakpoint();
-
+  const height = window.innerHeight - 80
   return (
-    <Row className="Hero">
+    <Row className="Hero" style={{height}}>
       <Col span={24} className="h-100">
         <Row gutter={16} className="h-100 w-100">
           <Col
@@ -19,7 +19,7 @@ export const Hero = () => {
             lg={8}
             xs={24}
             style={{
-              textAlign: breakpoint.xs || breakpoint.sm ? "center" : "left",
+              textAlign: breakpoint.xs === true ? "center" : "left",
             }}
           >
             <Title className="c-white">Hi There!</Title>
