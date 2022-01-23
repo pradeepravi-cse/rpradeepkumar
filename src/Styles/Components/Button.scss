@@ -1,0 +1,30 @@
+%default {
+    padding: 8px 16px !important;
+    display: inline-flex;
+    align-items: center
+}
+
+
+
+.Button {
+
+    &--holo-white {
+        &.ant-btn {
+            @extend %default;
+
+            border: 1px solid #fff;
+            border-radius: 4px;
+            background-color: transparent;
+            color: white;
+
+            &:hover,
+            &:active,
+            &:visited {
+                background-color: #fff;
+                color: #333;
+                border: 1px solid #fff;
+            }
+        }
+
+    }
+}
