@@ -1,7 +1,7 @@
 #signature {
   path {
     animation: sign 0.5s ease-in;
-    stroke: #fff;
+    stroke: white;
     fill: transparent;
     animation-fill-mode: forwards;
     @for $i from 1 to 11 {

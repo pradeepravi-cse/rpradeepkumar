@@ -8,9 +8,9 @@ const { Title, Paragraph } = Typography;
 const { useBreakpoint } = Grid;
 export const Hero = () => {
   const breakpoint = useBreakpoint();
-  const height = window.innerHeight - 80
+  const height = window.innerHeight - 80;
   return (
-    <Row className="Hero" style={{height}}>
+    <Row className="Hero" style={{ height }}>
       <Col span={24} className="h-100">
         <Row gutter={16} className="h-100 w-100">
           <Col

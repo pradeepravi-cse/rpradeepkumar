@@ -1,0 +1,15 @@
+.Expertise {
+  width: 100%;
+  max-width: 200px;
+  aspect-ratio: 1/1;
+  margin: auto;
+  border: 1px solid #000;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &--wrapper {
+    margin-top: 60px;
+  }
+}
