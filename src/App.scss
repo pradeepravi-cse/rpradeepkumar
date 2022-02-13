@@ -2,6 +2,8 @@
   path {
     animation: sign 0.5s ease-in;
     stroke: white;
+    stroke-width: 1;
+    stroke-linejoin: round;
     fill: transparent;
     animation-fill-mode: forwards;
     @for $i from 1 to 11 {
@@ -32,7 +34,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: cssAnimation 100ms ease-in 6s forwards;
+  animation: cssAnimation 100ms ease-in 2.5s forwards;
   animation-fill-mode: forwards;
   z-index: 9999;
 }
@@ -47,5 +49,43 @@
     margin: auto;
     width: 0;
     height: 0;
+  }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
+.line-1 {
+  position: relative;
+  font-family: "Satisfy", cursive;
+  width: 6m;
+  margin: 0 auto;
+  color: #fff;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 180%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 100px;
+}
+
+/* Animation */
+.anim-typewriter {
+  animation: typewriter 1s steps(12) 1s 1 normal both,
+    blinkTextCursor 500ms steps(12) infinite normal;
+}
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 6em;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
   }
 }

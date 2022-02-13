@@ -1,0 +1,50 @@
+{
+    "project1": {
+        "title": "Minimal Navigation",
+        "img": "minimalnav.png",
+        "tags": [
+            "UI/UX",
+            "Web Design",
+            "SPA"
+        ]
+    },
+    "project2": {
+        "title": "Tekhcilque Website",
+        "img": "tekhclique.png",
+        "tags": [
+            "UI/UX",
+            "Web Design"
+        ]
+    },
+    "project3": {
+        "title": "Tekhcilque Logo",
+        "img": "tekhclique_logo.png",
+        "tags": [
+            "Logo Design"
+        ]
+    },
+    "project4": {
+        "title": "Analyst Dashboard",
+        "img": "analystdashboard.png",
+        "tags": [
+            "UI/UX",
+            "Web Design",
+            "SPA"
+        ]
+    },
+    "project5": {
+        "title": "Alpha Studio",
+        "img": "alpha.png",
+        "tags": [
+            "Web Design"
+        ]
+    },
+    "project6": {
+        "title": "Remind  Me",
+        "img": "remindme.png",
+        "tags": [
+            "UI/UX",
+            "Mobile App"
+        ]
+    }
+}

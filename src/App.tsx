@@ -13,7 +13,7 @@ function App() {
       <Navbar />
       <Home />
       <div className="SVG-wrapper">
-        <Signature />
+        <div className="line-1 anim-typewriter">Pradeepkumar</div>
       </div>
     </>
   );

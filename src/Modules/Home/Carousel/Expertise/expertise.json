@@ -1,0 +1,26 @@
+{
+    "row1": [
+        "adobe",
+        "figma",
+        "xd",
+        "react",
+        "next",
+        "js"
+    ],
+    "row2": [
+        "ts",
+        "photoshop",
+        "node",
+        "html",
+        "css3",
+        "sass"
+    ],
+    "row3": [
+        "azuredevops",
+        "github",
+        "bitbucket",
+        "jira",
+        "docker",
+        "kubernetes"
+    ]
+}
